@@ -2,6 +2,9 @@
 
 **Health Form Scheduler** is a practical and efficient system for scheduling appointments with multiple doctors. The patient accesses an intuitive page where they can book an appointment with both Dr. John and Dr. Mary simultaneously. After scheduling, the patient automatically receives a thank-you email, ensuring quick and efficient communication. This project optimizes the appointment workflow, facilitating integrated care from multiple professionals and providing a seamless, professional experience for patients.
 
+![Uploading Screenshot from 2024-10-19 09-45-07.png…]()
+
+
 ## Technology
 
 Here are the technologies used in this project:
