@@ -1,0 +1,95 @@
+#style-body-app{
+    min-height: 100vh;
+    background-color: #c5c5c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-container-form{
+    background-color: #FFF;
+    width: 600px;
+    height: 800px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: rgba(255, 2005, 200, 0.1) 0px 8px 24px, rgba(255, 2005, 200, 0.1) 0px 16px 56px, rgba(255, 2005, 200, 0.1) 0px 24px 80px;
+}
+
+.style-size-img{
+    width: 520px;
+    height: 450px;
+}
+
+.container-doctors-img, .style-container-calendar-time, .style-container-form-to-fill, .style-session-finished-schelud{
+    margin-top: 30px;
+}
+
+
+.style-btn-select-time:nth-child(1){
+    margin-top: 10px;
+}
+
+.style-btn-select-time{
+    background-color: #000!important;
+    color: #FFF!important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.style-img-check{
+    width: 100px;
+    height: 100px;
+}
+
+.style-session-finished-schelud{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+@media (max-width: 600px   ){    
+
+.style-container-form{
+    padding-left: calc((40/600) * 100vw)!important;
+    padding-right: calc((40/600) * 100vw)!important;    
+    width: calc((560/600) * 100vw)!important;
+}
+
+
+.style-size-img{
+    width: calc((480/600) * 100vw)!important;
+    height: calc((450/600) * 100vw)!important;
+}
+.container-doctors-img, .style-container-calendar-time, .style-container-form-to-fill, .style-session-finished-schelud{
+    margin-top: calc((30/600) * 100vw)!important;
+}
+}
+
+@media (max-width: 500px   ){    
+    .style-container-form{
+        
+        height: 750px;
+    }   
+}
+
+@media (max-width: 420px   ){    
+    .style-container-form{
+        
+        height: 680px;
+    }   
+}
+
+@media (max-width: 350px   ){    
+    .style-container-form{
+        
+        height: 670px;
+    }   
+}
+
+@media (max-width: 320px   ){    
+    .style-container-form{
+        
+        height: 640px;
+    }   
+}
